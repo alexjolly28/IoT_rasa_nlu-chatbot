@@ -1,0 +1,174 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "turn on light",
+        "intent": "light",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "on",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "turn off light",
+        "intent": "light",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "off",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "turn on fan",
+        "intent": "fan",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "on",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "turn off fan",
+        "intent": "fan",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "off",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "set fan to 5",
+        "intent": "fan",
+        "entities": [
+          {
+            "start": 11,
+            "end": 12,
+            "value": "5",
+            "entity": "value"
+          }
+        ]
+      },
+      {
+        "text": "set speed fan to 4",
+        "intent": "fan",
+        "entities": [
+          {
+            "start": 17,
+            "end": 18,
+            "value": "4",
+            "entity": "value"
+          }
+        ]
+      },
+      {
+        "text": "set fan speed to 2",
+        "intent": "fan",
+        "entities": [
+          {
+            "start": 17,
+            "end": 18,
+            "value": "2",
+            "entity": "value"
+          }
+        ]
+      },
+      {
+        "text": "fan speed to 1",
+        "intent": "fan",
+        "entities": [
+          {
+            "start": 13,
+            "end": 14,
+            "value": "1",
+            "entity": "value"
+          }
+        ]
+      },
+      {
+        "text": "turn fan to 3",
+        "intent": "fan",
+        "entities": [
+          {
+            "start": 12,
+            "end": 13,
+            "value": "3",
+            "entity": "value"
+          }
+        ]
+      },
+      {
+        "text": "turn light to green",
+        "intent": "light",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "green",
+            "entity": "value"
+          }
+        ]
+      },
+      {
+        "text": "turn light to yellow",
+        "intent": "light",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "yellow",
+            "entity": "value"
+          }
+        ]
+      },
+      {
+        "text": "turn red light on",
+        "intent": "light",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "red",
+            "entity": "value"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "on",
+            "entity": "action"
+          }
+        ]
+      },
+      {
+        "text": "turn on yellow light ",
+        "intent": "light",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "on",
+            "entity": "action"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "yellow",
+            "entity": "value"
+          }
+        ]
+      }
+    ]
+  }
+}
