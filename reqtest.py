@@ -23,4 +23,4 @@ if acc >=.9:
             a["value"]=entity["value"]
 
 json_a = json.dumps(a)
-print(a)
+print(json_a)
